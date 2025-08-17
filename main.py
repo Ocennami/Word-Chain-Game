@@ -12,7 +12,7 @@ token = os.getenv('DISCORD_TOKEN')
 
 handler = logging.FileHandler(filename='bot.log', encoding='utf-8', mode='w')
 logging.basicConfig(
-    level=logging.WARMING,
+    level=logging.WARNING,
     format='%(asctime)s:%(levelname)s:%(name)s: %(message)s',
     handlers=[handler] 
 )
@@ -222,4 +222,5 @@ if __name__ == "__main__":
         try:
             bot.run(token, log_handler=None, log_level=logging.WARNING)
         except Exception as e:
+
             print(f"❌ Lỗi khi chạy bot: {e}")
