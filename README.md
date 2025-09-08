@@ -2,6 +2,7 @@
 
 A Discord bot for the **English Word Chain** minigame!  
 Challenge your friends, test your English vocabulary, and have fun right on your Discord server.
+Note: If you want me to support English language, I can update immediately.
 
 ## 🚀 Features
 
